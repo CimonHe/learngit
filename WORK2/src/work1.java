@@ -2,9 +2,14 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Objects;
+<<<<<<< HEAD
 
 //编译的警告只剩下未使用的get和set方法以及未使用的异常类的无参数构造函数和未使用的抽象接口方法
 public class work1 {
+=======
+//编译的警告只剩下未使用的get和set方法以及未使用的异常类的无参数构造函数和未使用的抽象接口方法
+public class work1{
+>>>>>>> cb410fc3ad058df292fd508f1410a449ce096cfe
     public static void main(String[] args) {
         West2FriedChickenRestaurant west2FriedChickenRestaurant = new West2FriedChickenRestaurant();
         west2FriedChickenRestaurant.setBalance(50);//----------设置炸鸡店余额为50
@@ -289,3 +294,24 @@ class West2FriedChickenRestaurant implements FriedChickenRestaurant {
     }
 }
 
+<<<<<<< HEAD
+=======
+class IngredientSortOutException extends RuntimeException{
+    public IngredientSortOutException() {
+    }
+
+    public IngredientSortOutException(String message) {
+        super(message);
+    }
+}
+
+class OverdraftBalanceException extends RuntimeException{
+    public OverdraftBalanceException() {
+    }
+
+    public OverdraftBalanceException(String message) {
+        super(message);
+    }
+
+}
+>>>>>>> cb410fc3ad058df292fd508f1410a449ce096cfe
