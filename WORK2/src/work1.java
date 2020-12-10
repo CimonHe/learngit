@@ -91,7 +91,7 @@ class Beer extends Drinks {
     public String toString() {
         return "啤酒{" +
                 "名字：'" + name + '\'' +
-                ", 花费：" + cost +
+                ", 成本：" + cost +
                 ", 生产日期：" + producedDate +
                 ", 保质期：" + shelfLife +
                 ", 酒精度：" + concentration +
@@ -287,5 +287,3 @@ class West2FriedChickenRestaurant implements FriedChickenRestaurant {
         this.balance = balance;
     }
 }
-
-
