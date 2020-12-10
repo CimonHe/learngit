@@ -2,7 +2,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Objects;
-//编译的警告只剩下未使用的get和set方法以及异常类的构造函数和未使用的接口方法
+//编译的警告只剩下未使用的get和set方法以及未使用的异常类的无参数构造函数和未使用的抽象接口方法
 public class work1{
     public static void main(String[] args) {
         West2FriedChickenRestaurant west2FriedChickenRestaurant=new West2FriedChickenRestaurant();
